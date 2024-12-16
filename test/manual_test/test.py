@@ -12,8 +12,8 @@ async def main(jwt_token: str, cookies: list[dict], chat_text: str, reset_conver
 
 
 if __name__ == "__main__":
-    your_token = ""
-    jwt_token = f"{your_token}"
+    your_jwt_token = ""
+    jwt_token = f"{your_jwt_token}"
     cookies: list[dict] = json.loads(open(
         str(Path(str(Path.cwd()) + "/bing_cookies.json")), encoding="utf-8").read())
     try:
