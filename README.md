@@ -53,6 +53,8 @@ python3 -m pip install re_copilot --upgrade
 
 ## Example
 
+![Run example](/images/run_example.png)
+
 <details open>
 
 ```python
