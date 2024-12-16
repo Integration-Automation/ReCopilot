@@ -45,8 +45,11 @@ python3 -m pip install re_copilot --upgrade
 4. Switch to network tab
 5. Press Ctrl + F on developer tool window to search
 6. Search authorization and find request header that include authorization
+
 ![Requests header that include authorization](/images/request_that_include_jwt.png)
-7. Copy all JWT token string after Bearer 
+
+7. Copy all JWT token string after Bearer
+
 ![JWT Token](/images/jwt_token.png)
 
 </details>
